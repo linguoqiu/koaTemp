@@ -1,9 +1,9 @@
-import Router from 'koa-router'
-import user from '../api/userController'
+import Router from 'koa-router';
+import userController from '../api/userController';
 
-const router = new Router()
+const router = new Router();
 
 router.prefix('/api')
-router.post('/user', user.getUserInfo)
+router.post('/user', userController.getUserInfo)
 
-module.exports = router
+export default router
