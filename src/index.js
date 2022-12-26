@@ -32,5 +32,5 @@ if (!isDevMode) {
 }
 app.use(middleware)
 
-// console.log('app is running on 3000!')
+console.log('app is running on 3000!');
 app.listen(3000)
