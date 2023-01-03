@@ -3,7 +3,7 @@ import userController from '../api/UserController';
 
 const router = new Router();
 
-router.prefix('/api')
-router.post('/user', userController.getUserInfo)
+router.prefix('/api');
+router.post('/user', userController.getUserInfo);
 
 export default router

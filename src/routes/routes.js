@@ -1,5 +1,5 @@
-import combineRoutes from 'koa-combine-routers'
-import userRoutes from './userRouter'
+import combineRoutes from 'koa-combine-routers';
+import userRoutes from './userRouter';
 import publicRouter from './publicRouter';
 
 const router = combineRoutes(

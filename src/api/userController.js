@@ -17,14 +17,14 @@ class UserController {
         code: 200,
         msg: '上传成功'
       }
-      return
+      return;
     } else {
       ctx.status = 404
       ctx.body = {
         code: 404,
         msg: 'name与email不得为空'
       }
-      return
+      return;
     }
   }
 }
