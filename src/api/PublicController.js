@@ -1,3 +1,10 @@
+/*
+ * @Author: Gavin
+ * @Date: 2022-12-29 22:09:14
+ * @LastEditTime: 2023-01-31 22:16:44
+ * @FilePath: /koaTemp/src/api/PublicController.js
+ * @Description: 
+ */
 import svgCaptcha from 'svg-captcha';
 
 class PublicController {
@@ -9,7 +16,7 @@ class PublicController {
       color: true,
       noise: Math.floor(Math.random() * 5),
       width: 150,
-      height: 50,
+      height: 38,
     });
   
     ctx.body = {
